@@ -1,0 +1,121 @@
+/* General rules */
+
+* {
+
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+
+}
+
+
+body {
+
+  text-align: center;
+  background-color: lightgrey;
+
+}
+
+/* Products */
+
+main {
+
+margin-top: 15px;
+
+}
+
+.line2 {
+
+ margin-top: 25px;
+
+}
+
+/* Ipad */
+
+.ipad-1,.ipad-2 {
+
+  height: 400px;
+  width: 300px;
+  background-image:url('img/Ipad.jpg');
+  margin: auto;
+  background-size:cover;
+  display: inline-block;
+  position: relative;
+
+}
+
+/* Iphone */
+
+.iphone-1,.iphone-2 {
+
+  height: 400px;
+  width: 300px;
+  background-image:url('img/Iphone.jpg');
+  display: inline-block;
+  background-size:cover;
+  position: relative;
+
+}
+
+/* Cuffie */
+
+.cuffie-1,.cuffie-2 {
+
+  height: 400px;
+  width: 300px;
+  background-image:url('img/Cuffie.jpg');
+  display: inline-block;
+  background-size:cover;
+  position: relative;
+
+}
+
+/* Sconto */
+
+.sconto30 {
+
+  height: 25px;
+  width: 40px;
+  background-color: green;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+.sconto5 {
+
+  height: 25px;
+  width: 40px;
+  background-color: red;
+  border: 1px solid black;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+}
+
+/* Wishlist */
+
+a {
+
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  font-size: 40px;
+
+}
+
+.wishlist a {
+
+  display: none;
+
+}
+
+.wishlist:hover a {
+
+  display: block;
+  color: red;
+
+}
